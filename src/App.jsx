@@ -1,14 +1,16 @@
 import React from 'react';
 //import Example from './Example';
-import Header from './Header.jsx';
-import Example1 from './Example1.jsx';
+//import Header from './Header.jsx';
+//import Example1 from './Example1.jsx';
+import Examplejsx  from './ExampleJsx.jsx';
 
 function App() {
   return (
-    <><Header/> 
-  <Example1/>
+    <>
+    <Examplejsx name="swathi"/>
+    <Examplejsx name="arlapudi"/>
   </>
   );
 }
 
-export default App;//jsx example
+export default App;
